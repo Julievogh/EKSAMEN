@@ -1,0 +1,475 @@
+@font-face {
+  font-family: tomatoes;
+  src: url('fonts/Tomatoes-O8L8.ttf');
+}
+
+@font-face {
+  font-family: Robot Slab;
+  src: url('fonts//Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Titillium;
+  src: url('fonts/Titillium_Web/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+  font-family: Parkstam;
+  src: url('fonts/Parkstam\ Sutherlane.otf');
+}
+
+
+
+body {
+    
+  background-image: url("/ideer/backgrounds/wavesbg.png");
+  background-size: cover;
+  z-index: -1;
+  
+  
+}
+
+main {    
+  background-image: url("/ideer/backgrounds/notepadbg.png");
+  width: auto;
+  height: 100rem;
+  background-position: left;
+  margin: 0rem 5rem 2rem 5rem;
+  box-shadow: #81598c 2px 0px 8px 0px;
+}
+
+main {    
+  background-image: url("/ideer/backgrounds/notepadbg.png");
+  background-size: cover;
+}
+
+
+h1 {
+  font-family: Robot Slab;
+}
+
+h2 {
+  font-family: Tomatoes;
+  font-size: 28px;
+}
+
+
+.forside_note_container {
+ 
+}
+
+/* NAV BAR 2*/
+
+.small_navbar {
+  position: fixed; /* Position the navbar fixed on the viewport */
+  top: 0; 
+  left: 0; 
+  z-index: 9999; 
+  width: 100%; 
+}
+
+.navbar2 ul{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav_link2 {
+  background-color: rgba(255, 230, 0, 0.5);
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: purple;
+  text-decoration: none;
+  padding: 5px 10px; /* Add padding to the menu items */
+}
+
+
+.nav-menu2 li {
+  margin-bottom: 10px; /* Add some spacing between menu items */
+}
+
+.nav-menu2 li:hover {
+  background-color: rgba(103, 243, 140, 0.5);
+  border-radius: 10rem;
+}
+
+.small_navbar .nav-menu2 {
+  display: none; /* Hide the menu items by default */
+}
+
+.small_navbar.active .nav-menu2 {
+  display: flex; /* Display the menu items when the navbar is active */
+  flex-direction: column; /* Stack the menu items vertically */
+  align-items: flex-start; /* Align the menu items to the left */
+}
+
+.burger-icon {
+  display: block; /* Display the burger icon */
+  cursor: pointer;
+  padding: 2rem;
+
+}
+
+.burger-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+position: relative;
+}
+
+main {
+position: relative;
+z-index: 1;
+}
+
+
+
+
+a.nav_link{
+display: flex;
+justify-content: center;
+align-items: center ;
+color: darkblue;
+text-decoration: none;
+
+
+}
+
+.navbar ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0rem 8rem;
+
+}
+
+
+.nav_link {
+font-size: 1.2rem;
+}
+
+
+.navbar li {
+top: 50px;
+position: relative;
+padding: 20px 0;
+cursor: pointer;
+transition: transform 0.3s;
+
+}
+
+.navbar li::before {
+content: "";
+position: absolute;
+top: 10%;
+left: 0;
+width: 100%;
+height: px;
+background-color: #007bff;
+transform: scaleY(0);
+transition: transform 0.3s;
+}
+
+.navbar li:hover {
+transform: translateY(-20px);
+}
+
+.navbar li:hover::before {
+transform: scaleY(1);
+}
+}
+
+
+
+
+
+/* NAV BAR LARGE */
+
+
+* {
+padding: 0;
+margin: 0;
+
+}
+
+html {
+font-family: tomatoes;
+
+}
+
+body {
+position: relative;
+}
+
+main {
+position: relative;
+z-index: 1;
+}
+
+
+
+
+a.nav_link{
+display: flex;
+justify-content: center;
+align-items: center ;
+color: darkblue;
+text-decoration: none;
+
+
+}
+
+.navbar ul {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0rem 8rem;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.nav_link {
+  display: flex;
+font-size: 1rem;
+font-family: Tillium;
+}
+
+.nav_link span {
+  font-size: 2rem;
+}
+
+
+.navbar li {
+top: 60px;
+position: relative;
+padding: 20px 0;
+cursor: pointer;
+transition: transform 0.3s;
+
+
+}
+
+.navbar li::before {
+content: "";
+position: absolute;
+top: 10%;
+left: 0;
+width: 100%;
+height: px;
+background-color: #007bff;
+transform: scaleY(0);
+transition: transform 0.3s;
+}
+
+.navbar li:hover {
+transform: translateY(-20px);
+}
+
+.navbar li:hover::before {
+transform: scaleY(1);
+}
+
+
+
+
+#nav-item-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(153, 153, 212);
+  width: 6rem;
+  height: 5rem;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+
+
+
+
+#nav-item-2 {
+background-color: rgb(244, 175, 137);
+width: rem;
+height: 4rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-3 {
+background-color: rgb(218, 218, 108);
+width: 4rem;
+height: 5rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-4 {
+background-color: rgb(225, 123, 145);
+width: 8rem;
+height: 4rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-5 {
+background-color: rgb(97, 189, 97);
+width: 8rem;
+height: 5rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-6 {
+background-color: salmon;
+width: 4rem;
+height: 5rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-7 {
+background-color: pink;
+width: 8rem;
+height: 4rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+#nav-item-8 {
+background-color: rgb(95, 198, 198);
+width: 8rem;
+height: 5rem;
+border-radius: 10px 10px 0px 0px;
+box-shadow: 4px 4px 5px 2px;
+color: #a9a6b2;
+}
+
+.nav_text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+  color: black;
+  margin-top: -0.5rem;
+}
+
+.nav_number {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+  font-size: 1.5rem;
+  margin-top: -0.2rem;
+  color: #007bff;
+}
+
+
+footer {
+
+}
+
+
+
+
+@media (min-width: 800px) {
+ 
+  .large_navbar {
+    display: block;
+
+  }
+
+  .small_navbar {
+    display: none;
+  }
+
+}
+
+@media (max-width: 800px)
+
+{
+
+
+  .large_navbar {
+    display: none;
+
+  }
+
+  .small_navbar {
+    display: block;
+  }
+
+  body{
+    background-image: none;
+  }
+
+  main {
+      background-image: none;
+      box-shadow: none;
+  }
+
+  body {
+      background-image: url("/ideer/backgrounds/notepadbg.png");
+      box-shadow: none;
+    }
+  
+  .forside_note_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+
+.text_forside1 {
+
+}
+.postit1 {
+position: relative;
+text-align: center;
+color: blue;
+}
+.postit1_text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.postit1 img {
+    
+    width: 20rem;
+    height: auto;
+}
+
+
+}
+
+
+ 
+
+ 
