@@ -22,7 +22,7 @@
 
 body {
     
-  background-image: url("/ideer/backgrounds/wavesbg.png");
+  background-image: url("/backgrounds/wavesbg.png");
   background-size: cover;
   z-index: -1;
   
@@ -30,7 +30,7 @@ body {
 }
 
 main {    
-  background-image: url("/ideer/backgrounds/notepadbg.png");
+  background-image: url("/backgrounds/notepadbg.png");
   width: auto;
   height: 100rem;
   background-position: left;
@@ -39,7 +39,7 @@ main {
 }
 
 main {    
-  background-image: url("/ideer/backgrounds/notepadbg.png");
+  background-image: url("/backgrounds/notepadbg.png");
   background-size: cover;
 }
 
@@ -434,7 +434,7 @@ footer {
   }
 
   body {
-      background-image: url("/ideer/backgrounds/notepadbg.png");
+      background-image: url("/backgrounds/notepadbg.png");
       box-shadow: none;
     }
   
