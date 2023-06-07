@@ -57,10 +57,12 @@ margin-top: 2rem;
 }
 .postit1 {
 position: absolute;
-margin-top: 2rem;
+margin-top: -4rem;
 position: relative;
 text-align: center;
 color: blue;
+grid-row: 2;
+grid-column: 3;
 }
 .postit1_text {
 position: absolute;
@@ -73,7 +75,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .postit1 img {
 
-width: 20rem;
+width: 18rem;
 height: auto;
 }
 
@@ -84,7 +86,7 @@ height: auto;
     margin: 1rem;
     grid-row: 2;
 grid-column: 2/3;
-padding-left: 8rem;
+padding-top: 3rem;
 }
 
 #forside_txt2{
@@ -102,6 +104,7 @@ grid-column: 1/ span 2;
   background-color: rgba(103, 243, 140, 0.5);
   box-shadow: #c5bdc7 2px 2px 2px 0px;
   border-radius: 0.5rem;
+  margin-top: 4rem;
 }
 
 

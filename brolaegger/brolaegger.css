@@ -85,6 +85,12 @@ h1 {
   padding-top: 1rem;
   grid-row: 9;
 }
+
+#brolaegger_link {
+font-size: 2rem;
+color: rgb(82, 77, 77);
+}
+
 .slideshow_container {
   display: grid;
   place-self: center;
