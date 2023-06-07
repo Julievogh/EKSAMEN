@@ -99,7 +99,7 @@ main {
 
 
 h1 {
-  font-size: 4rem;
+  font-size: 60px;
   font-family: cheee-bingbong;
 }
 
@@ -328,7 +328,7 @@ font-family: Tillium;
 
 
 .navbar li {
-top: 60px;
+top: 55px;
 position: relative;
 padding: 20px 0;
 cursor: pointer;
@@ -349,8 +349,10 @@ transform: scaleY(0);
 transition: transform 0.3s;
 }
 
+/* HVOR LANGT NAV FANER GÅR OP */
+
 .navbar li:hover {
-transform: translateY(-20px);
+transform: translateY(-22px);
 }
 
 .navbar li:hover::before {
@@ -373,21 +375,40 @@ transform: scaleY(1);
 color: #a9a6b2;
 }
 
+/* NAV DER VIRKER! KOPIR TIL DE ANDRE NAVS!*/
 
-.nav_icon1 {
-  margin-top: -1.6rem;
-}
+.nav-item-2 {
+  background-color: rgb(244, 175, 137);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 4px 4px 5px 2px;
+  color: #a9a6b2;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+    
+  }
+  .nav_item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav_icon2 {
+    margin-top: -1.4rem;
+    width: 4rem;
+    height: auto;
+    
+  }
+  
+  .nav_text2 {
+    text-align: center;
+    margin-top: -2.5em;
+    font-size: 1rem;
+  }
+  
 
-
-
-#nav-item-2 {
-background-color: rgb(244, 175, 137);
-width: rem;
-height: 4rem;
-border-radius: 5px 5px 0px 0px;
-box-shadow: 4px 4px 5px 2px;
-color: #a9a6b2;
-}
 
 #nav-item-3 {
 background-color: rgb(218, 218, 108);
@@ -456,8 +477,11 @@ color: #a9a6b2;
   align-items: flex-start;
   height: 50%;
   color: black;
-  margin-top: -3.0rem;
+  margin-top: -.0rem;
 }
+
+
+
 
 .nav_number {
   display: flex;
@@ -476,8 +500,11 @@ color: #a9a6b2;
 @media (min-width: 768px) {
 
   body {
-    max-width: 1200px;
-    margin: 0 auto 10rem auto;
+    
+      max-width: 1200px;
+      margin: 0 auto 10rem auto;
+    }
+
   }
  
   .large_navbar {
@@ -530,8 +557,3 @@ color: #a9a6b2;
 
 
 
-
- 
-
-
-  }

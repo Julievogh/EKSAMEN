@@ -52,6 +52,7 @@ margin-left: 4rem;
 }
 
 .text_forside1 {
+ 
 text-align: center;
 margin-top: 2rem;
 }
@@ -136,7 +137,7 @@ display: flex;
 position: absolute;
 flex-direction: column;
 align-items: center;
-padding: 2rem;
+padding: 2rem 2rem 7rem 2rem;
 }
 
 #signature {
@@ -147,10 +148,7 @@ margin-top: 2rem;
 margin-right: 2rem;
 }
 
-.text_forside1 {
-text-align: center;
-margin-top: 2rem;
-}
+
 .postit1 {
 position: absolute;
 margin-top: 2rem;
@@ -251,7 +249,7 @@ footer {
   padding: 0rem;
   height: 3rem;
   width: auto;
-  top: 2000px; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
+  top: 132rem; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
   
 }
 
