@@ -18,9 +18,51 @@
   src: url('fonts/Parkstam\ Sutherlane.otf');
 }
 
+@font-face {
+  font-family: Recoleta;
+  src: url('fonts/Recoleta-SemiBold.ttf');
+}
 
 
+/*
+font-family: "cheee", sans-serif;
+font-weight: 200;
+font-style: normal;
 
+font-family: "cheee-bingbong", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-boogy", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-jimbo", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-oldskool", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-peeenutt", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-tbone", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "cheee-wowie", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+*/
+
+* {
+  font-family: Titillium;
+  font-size: 18px;
+}
 
 body {
   align-items: center;  
@@ -28,14 +70,13 @@ body {
   background-size: cover;
   z-index: -1;
   
-  
 }
 
 main {    
   background-image: url("/backgrounds/notepadbg.png");
   
-  box-shadow: #81598c 2px 0px 8px 0px;
-  no-repeat center center fixed; 
+  box-shadow: #81598c 2px 2px 10px 2px;
+  
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -54,17 +95,16 @@ main {
 
 
 h1 {
-  font-family: Robot Slab;
+  font-size: 4rem;
+  font-family: cheee-bingbong;
 }
 
 h2 {
-  font-family: ;
-  font-size: 28px;
+  font-size: 30px;
+  font-family: Recoleta;
 }
 
-.footer_container {
- 
-}
+
 footer {
   position: absolute;
   font-size: auto;
@@ -75,8 +115,9 @@ footer {
   background-color: rgba(103, 243, 140, 0.5);
   border-radius: 0rem 0rem 2rem 2rem;
   margin: 0rem 60rem 10rem 12rem;
-  height: 4rem;
-  width: auto;
+  padding: 0.8rem;
+  height: 3rem;
+  width: 12rem;
 
 }
 
@@ -218,7 +259,7 @@ transform: translateY(-20px);
 .navbar li:hover::before {
 transform: scaleY(1);
 }
-}
+
 
 
 
@@ -265,7 +306,7 @@ list-style-type: none;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 0rem 8rem;
+margin: 0rem 4rem;
 font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -431,7 +472,7 @@ color: #a9a6b2;
 @media (min-width: 768px) {
 
   body {
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto 10rem auto;
   }
  

@@ -1,13 +1,16 @@
 
-
-
+/* STORE SKÆRME */
 
 @media (min-width: 768px) {
 
-    body {
-      max-width: 1600px;
+ 
+    
+  body {
+      max-width: 1200px;
       margin: 0 auto 10rem auto;
     }
+
+
    
     .large_navbar {
       display: block;
@@ -22,147 +25,45 @@
       display: none;
     }
   
-  }
-  
-  @media (max-width: 768px)
-  
-  {
-  
-  
-    .large_navbar {
-      display: none;
-  
-    }
-  
-    .small_navbar {
-      display: block;
-    }
-  
-  
-  
-    body{
-      background-image: none;
-    }
-  
-    main {
-        background-image: none;
-        box-shadow: none;
-    }
-  
-    body {
-        background-image: url("/backgrounds/notepadbg.png");
-        box-shadow: none;
-        position: absolute;
-        
+
+
+    .text_forside1 {
+      text-align: center;
+      margin-top: 2rem;
       }
-  
-  
 
 
-.forside_note_container {
-
-display: flex;
-position: absolute;
-flex-direction: column;
-align-items: center;
-padding: 2rem;
-}
-
-#signature {
-align-self: flex-end;
-max-width: 10%;
-height: auto;
-margin-top: 2rem;
-margin-right: 2rem;
-}
-
-.text_forside1 {
-text-align: center;
-margin-top: 2rem;
-}
-.postit1 {
-position: absolute;
-margin-top: 2rem;
-position: relative;
-text-align: center;
-color: blue;
-}
-.postit1_text {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-family: Arial, Helvetica, sans-serif;
+/* SMÅ SKÆRME */
 
 }
 
-.postit1 img {
+@media (max-width: 768px)
 
-width: 20rem;
-height: auto;
-}
-
-
-.maskot {
-display: flex;
-justify-content: flex-end;
-}
-
-
-
-.maskot img {
-max-width: 50%;
-height: auto;
-}
-
-.animated_flower {
-position: relative;
-top: 0;
-left: 0;
-pointer-events: none;
-}
-
-
-#flowerface {
-width: 10rem;
-height: auto;
-position: relative; /* Change the position to relative */
-top: -10.5rem; /* Adjust the top position to move it above the "petals" */
-left: 0px;
-z-index: 40; /* Decrease the z-index to move it below the "petals" and "flowerbody" */
-}
-
-#petals {
-width: 10rem;
-height: auto;
-position: relative;
-top: 0px;
-left: 0px;
-z-index: 20; /* Increase the z-index to keep it above the "flowerface" */
-}
-
-#flowerbody {
-width: 10rem;
-height: auto;
-position: absolute;
-top: 2rem;
-left: 0px;
-z-index: 10; /* Increase the z-index to keep it above the "flowerface" */
-}
+{
 
 footer {
-  position: relative;
-  font-size: auto;
-  text-align: center;
- color: black;
- font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(247, 250, 71, 0.6);
-  box-shadow: #878c73 3px 1px 4px 0px;
-  border-radius: 0rem 0rem 0rem 0rem;
-  margin: 0rem 8rem 6rem 8rem;
-  padding: 0rem;
-  height: 3rem;
-  width: auto;
+  
+
+}
+
+
+
+
+footer {
+  box-sizing: border-box;
+position: relative;
+font-size: auto;
+text-align: center;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(247, 250, 71, 0.6);
+box-shadow: #878c73 3px 1px 4px 0px;
+border-radius: 0rem 0rem 0rem 0rem;
+margin: 0rem 8rem 6rem 8rem;
+padding: 0rem;
+height: 3rem;
+width: auto;
+top: 2000px; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
 
 }
 
@@ -182,73 +83,10 @@ transform-origin: center;
 
 @keyframes rotation {
 0% {
-  transform: rotate(0deg);
+transform: rotate(0deg);
 }
 100% {
-  transform: rotate(360deg);
+transform: rotate(360deg);
 }
 }
 
-
-
-
-/* TEST */
-
-
-.container {
-position: relative;
-}
-
-#tanke_img {
-width: 200px;
-height: 200px;
-transition: transform 1s;
-}
-
-.tanke_bobbel {
-
-}
-
-#tanke_tekst {
-font-family: Arial, Helvetica, sans-serif;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-120%, -200%);
-font-size: 16px;
-color: rgb(255, 255, 255);
-text-align: center;  
-border-radius: 0.6rem;
-opacity: 0;
-transition: opacity 1s;
-background-image: url(/backgrounds/tern.png);
-background-color: rgb(218, 218, 108, 5.5);
-
-background-size: cover;
-background-size: 5rem 5rem;
-background-position: center;
-
-}
-
-
-#klik_her {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-160%, -100%);
-font-size: 16px;
-color: blue;
-cursor: pointer;
-}
-
-.shake-animation {
-animation: shake 0.5s ease-in-out;
-}
-
-@keyframes shake {
-0% { transform: translateX(0); }
-25% { transform: translateX(-10px); }
-50% { transform: translateX(10px); }
-75% { transform: translateX(-10px); }
-100% { transform: translateX(0); }
-}

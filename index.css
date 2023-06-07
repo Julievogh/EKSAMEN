@@ -3,11 +3,25 @@
 
 @media (min-width: 768px) {
 
+ 
     
     body {
         max-width: 1200px;
         margin: 0 auto 10rem auto;
       }
+
+/* gradient inspiration: https://fossheim.io/writing/posts/css-text-gradient/ */
+h1 {
+  
+  background-color: #8df378;
+    background-image: linear-gradient(45deg, #f3eb78, #af4261, #4252af);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
      
       .large_navbar {
         display: block;
@@ -66,6 +80,7 @@ height: auto;
 
 
 #forside_txt1 {
+  text-align: center;
     margin: 1rem;
     grid-row: 2;
 grid-column: 2/3;
@@ -73,14 +88,27 @@ padding-left: 8rem;
 }
 
 #forside_txt2{
-    margin: 1rem;
+ 
+  text-align: left;
+    margin: 3rem;
+    padding: 2rem;
     grid-row: 3;
-grid-column: 2/3;
-padding-right: 10rem;
+grid-column: 1/ span 2;
+
 }
+
+#forside_txt2 {
+  background-color: #4252af;
+  background-color: rgba(103, 243, 140, 0.5);
+  box-shadow: #c5bdc7 2px 2px 2px 0px;
+  border-radius: 0.5rem;
+}
+
 
 .maskot_container {
     grid-row: 5;
+    grid-column: 3;
+    padding-left: 5rem;
 }
 
 
@@ -94,36 +122,10 @@ padding-right: 10rem;
   
   {
   
+  footer {
+    
   
-    .large_navbar {
-      display: none;
-  
-    }
-  
-    .small_navbar {
-      display: block;
-    }
-  
-  
-  
-    body{
-      background-image: none;
-    }
-  
-    main {
-        background-image: none;
-        box-shadow: none;
-    }
-  
-    body {
-        background-image: url("/backgrounds/notepadbg.png");
-        box-shadow: none;
-        position: absolute;
-        
-      }
-  
-  
-
+  }
 
 .forside_note_container {
 
@@ -169,7 +171,7 @@ height: auto;
 }
 
 
-.maskot {
+.maskot_container {
 display: flex;
 justify-content: flex-end;
 }
@@ -185,6 +187,7 @@ height: auto;
 position: relative;
 top: 0;
 left: 0;
+margin: -2rem 0rem -8rem 0rem;
 pointer-events: none;
 }
 
@@ -217,6 +220,19 @@ z-index: 10; /* Increase the z-index to keep it above the "flowerface" */
 }
 
 
+#forside_txt1 {
+  margin: 1rem;
+  grid-row: 2;
+grid-column: 2/3;
+padding: 6rem;
+}
+
+#forside_txt2{
+  grid-row: 3;
+grid-column: 2/3;
+padding: 6rem;
+}
+
 
 footer {
     box-sizing: border-box;
@@ -232,8 +248,8 @@ footer {
   padding: 0rem;
   height: 3rem;
   width: auto;
-  top: 1200px; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
-
+  top: 2000px; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
+  
 }
 
 
@@ -302,9 +318,10 @@ background-position: center;
 
 
 #klik_her {
+  background-image: url();
 position: absolute;
-top: 50%;
-left: 50%;
+top: 20%;
+left: 45%;
 transform: translate(-160%, -100%);
 font-size: 16px;
 color: blue;
