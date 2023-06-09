@@ -165,7 +165,11 @@ justify-content: center;
 
 
   
-    
+    #shark_concept {
+      width: 30rem;
+    }
+
+
      
 .efternote_container {
     display: grid;
