@@ -1,0 +1,217 @@
+
+/* STORE SKÆRME */
+
+@media (min-width: 768px) {
+
+ 
+    
+    body {
+        max-width: 1200px;
+        margin: 0 auto 10rem auto;
+      }
+  
+  /* gradient inspiration: https://fossheim.io/writing/posts/css-text-gradient/ */
+  h1 {
+  
+  background-color: #c278f3;
+    background-image: linear-gradient(5deg, #eb486b,  #28728f, #cd3ee9);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+  
+     
+      .large_navbar {
+        display: block;
+    
+      }
+    
+      .small_navbar {
+        display: none;
+      }
+    
+      .animated_flower {
+        display: none;
+      }
+    
+
+    
+  
+  .forside_note_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  
+  
+  .text_forside1 {
+    text-align: center;
+    margin-top: 2rem;
+    grid-column: 2; /* Add this line to center the element in the second grid column */
+  }
+  
+  .puggy_container {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: 4%;
+    left: 4%;
+    z-index: ;
+
+  }
+
+  
+  
+  #vitamin_link {
+    font-size: 2rem;
+    color: rgb(82, 77, 77);
+    }
+  
+  
+    .postit1 {
+      width: 20%;
+    height: auto;
+    position: absolute;
+    top: 26%;
+    right: 22%;
+    z-index: ;
+      }
+      
+      .postit1 img {
+      
+      width: 18rem;
+      height: auto;
+      }
+      
+  
+      #vit_site {
+        grid-row: 3;
+      }
+  
+  .vit_main_container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem -10rem ;
+  }
+  
+  
+      .vit_main_container img {
+        max-width: 80%;
+      }
+  
+      .vit_main_container p {
+        padding: 1rem 0rem 0rem 0rem;
+      }
+  
+      .vit_text2 {
+      background-color: rgba(112, 163, 92, 0.5);
+      }
+  
+
+      .om_mig_container {
+
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    
+      }
+      
+      .vit_text3 {
+        
+        background-color: rgba(189, 243, 103, 0.5);
+      }
+
+      .vit_text3 img {
+        width: 12rem;
+      }
+
+
+.fremtid_container {
+
+    background-color: rgba(243, 103, 236, 0.5);
+    border-radius: 20px;
+    margin: 4rem;
+}
+
+
+}
+  
+ 
+ @media (max-width: 768px)
+    
+    {
+  .forside_note_container{
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  #overskrift_intro {
+    padding-top: 3rem;
+    align-self: center
+  }
+  
+  
+  
+  
+      .vit_main_container {
+        max-width:;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+  
+  .text_forside1 {
+    text-align: center;
+        padding: 1rem;
+        max-width: 80%;
+  }
+  
+  .vita_gifs_container {
+    max-width: 40%;
+  }
+  
+  #vit_img2  {
+    max-width: 80%;
+  }
+  
+  #vit_img3  {
+    max-width: 80%;
+  }
+  
+    
+.postit1 {
+    left: 2rem;
+}
+
+  .postit1 {
+      
+    width: 18rem;
+    height: auto;
+    }
+  
+  
+  
+    footer {
+      box-sizing: border-box;
+    position: relative;
+    font-size: auto;
+    text-align: center;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(247, 250, 71, 0.6);
+    box-shadow: #878c73 3px 1px 4px 0px;
+    border-radius: 0rem 0rem 0rem 0rem;
+    margin: 0rem 8rem 6rem 8rem;
+    padding: 0rem;
+    height: 3rem;
+    width: auto;
+  
+  }
+  
+  
+    }

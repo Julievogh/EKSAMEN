@@ -109,10 +109,33 @@ grid-column: 1/ span 2;
 }
 
 
+
+.forside_foto1 {
+  position: relative;
+  margin-top: -4rem;
+  
+  text-align: center;
+  color: blue;
+  grid-row: 5;
+  grid-column: 2;
+  }
+  
+  .forside_foto1 img {
+  margin-top: 2rem;
+  width: 22rem;
+  height: auto;
+  }
+  
+  
+
+
+
+
 .maskot_container {
-    grid-row: 5;
+  margin-top: -6rem;
+    grid-row: 6;
     grid-column: 3;
-    padding-left: 5rem;
+    padding-left: 2rem;
 }
 
 
@@ -125,7 +148,22 @@ grid-column: 1/ span 2;
   @media (max-width: 768px)
   
   {
+
+p {
+  font-size: 16px;
+}
+
+
+.text_forside1 {
+  margin: 2rem;
   
+}
+
+.rainbow_text {
+  text-align: center;
+}
+
+
   footer {
     
   
@@ -134,10 +172,10 @@ grid-column: 1/ span 2;
 .forside_note_container {
 
 display: flex;
-position: absolute;
+
 flex-direction: column;
 align-items: center;
-padding: 2rem 2rem 7rem 2rem;
+
 }
 
 #signature {
@@ -167,10 +205,15 @@ font-family: Arial, Helvetica, sans-serif;
 
 .postit1 img {
 
-width: 20rem;
+width: 14rem;
 height: auto;
 }
 
+
+.forside_foto1 img {
+  width: 20rem;
+  height: auto;
+}
 
 .maskot_container {
 display: flex;
@@ -249,8 +292,7 @@ footer {
   padding: 0rem;
   height: 3rem;
   width: auto;
-  top: 132rem; /* JEG VED GODT DET ER FORKERT, MEN JEG KAN IKKE FÅ RYKKET DEN SATANS FOOTER!!!!!*/
-  
+
 }
 
 
