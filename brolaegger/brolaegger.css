@@ -41,12 +41,12 @@ h1 {
 
 .text_1,
 .text_2,
-.text_3 {
+{
   grid-column: 1;
 }
 
 .text_1 {
-  
+  background-color: #878c73;
   margin-top: 10rem;
   grid-column: 1/2;
   grid-row: 2;
@@ -72,11 +72,44 @@ h1 {
   padding-top: 1rem;
 }
 
-.text_3 {
-  grid-row: 6;
+
+.BT_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;  /* Add this line */
+  align-items: center;  /* Add this line */
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+
+.proces_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+  background-color: rgba(82, 77, 77, 0.5);
+  margin: 2rem;
+}
+
+.proces_overskrift {
   grid-column: 1/ span 3;
   text-align: center;
-  padding: 0rem 4rem;
+  margin-top: 1rem;
+}
+
+.text_3,
+.text_4,
+.text_5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(172, 201, 177, 0.5);
+  margin: 1rem 2rem;
+}
+
+.text_3,
+.text_4,
+.text_5 {
+  margin-bottom: 20px;
 }
 
 #bt_link {
@@ -92,12 +125,18 @@ color: rgb(82, 77, 77);
 }
 
 .slideshow_container {
+  width: 60%;
+  margin-bottom: 2rem;
   display: grid;
   place-self: center;
   grid-row: auto / span 6;
   grid-column: 1 / span 2;
 }
 
+#favicon {
+  display: block;
+  margin: 0 auto;
+}
 
 /* SLIDESHOW */
 /* inspireret af: https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
