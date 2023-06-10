@@ -178,14 +178,18 @@ justify-content: center;
     align-items: center;
     gap: 2rem;
     margin: 2rem 10rem 2rem 10rem;
-    
+    background-color: #3d8f28;
+
     
 }
 
 
 .dagbog1 {
     grid-column: 1/2;
-    background-color: #3d8f28;
+    background-color: rgba(243, 178, 103, 0.8);
+    padding: 2rem 2rem;
+    margin: 2rem;
+    border-radius: 10px;
 
 }
 .dagbog2 {
@@ -199,6 +203,19 @@ justify-content: center;
     margin: rem;
     
 }
+
+.bottom_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottom_img {
+  width: 14rem;
+  height: auto;
+  margin: 1rem;
+}
+
 
 }
   
