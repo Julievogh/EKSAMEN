@@ -137,6 +137,7 @@
         justify-content: center;
         text-align: center;
       background-color: rgba(112, 163, 92, 0.5);
+      padding: 2rem;
       }
 
       #vit_img2 {
@@ -152,6 +153,7 @@
         justify-content: center;
         text-align: center;
         background-color: rgba(189, 243, 103, 0.5);
+        padding: 2rem;
       }
 
       .vit_text4 {
@@ -161,6 +163,7 @@
         justify-content: center;
         text-align: center;
         background-color: rgba(169, 240, 55, 0.5);
+        padding: 2rem;
       }
 
       #vit_img4 {

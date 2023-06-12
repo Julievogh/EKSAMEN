@@ -93,7 +93,7 @@
         width: 22%;
       height: auto;
       position: absolute;
-      top: 20%;
+      top: 21%;
       right: 16%;
       z-index: ;
         }
@@ -169,6 +169,11 @@ text-align: center;
         margin: 0 auto;
         width: 100%;
         
+      }
+
+      .vit_text3 h4 {
+        text-align: center;
+        background-color: rgba(234, 255, 0, 0.3);
       }
 
 
