@@ -22,8 +22,8 @@
   /* gradient inspiration: https://fossheim.io/writing/posts/css-text-gradient/ */
   h1 {
   
-  background-color: #8df378;
-    background-image: linear-gradient(45deg, #e9dd3e, #56b34a, #3d8f28, #e9dd3e);
+    background-color: #8df378;
+    background-image: linear-gradient(45deg, #60e7f1, #3753cc,#57b7d4, #f0ce10, #e9dd3e);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -78,20 +78,34 @@ align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 4rem 8rem;
-      background-color: rgba(224, 236, 112, 0.5);
+      background-color: rgba(112, 180, 236, 0.5);
+      box-shadow: #a0abb4 2px 2px 8px 1px;
       }
 
       .shark_text2 h3 {
         grid-column: 1;
+        grid-row: 1;
+        padding: 1.5rem 1rem;
+      }
+
+      .shark_text2 h4 {
+        text-align: center;
+        grid-column: 2;
+        grid-row: 1;
         padding: 1.5rem 1rem;
       }
 
       .shark_text2 p {
-        grid-column: 1;
+        grid-column: 1/2;
+        grid-row: 2;
         padding: 1.5rem 1rem;
       }
 
-
+      #shark_img2{
+        max-width: 90%;
+        grid-row: 2;
+    }
+    
 
 
 .slideshow {
@@ -103,8 +117,7 @@ justify-content: center;
 
 .slideshow img {
     width: 10rem;
-    
-    padding: 1rem;
+   margin: -3rem 0rem -6rem;
 }
 
 
@@ -115,39 +128,88 @@ justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    
     align-items: center;
     gap: 2rem;
-    margin: 2rem;
+    margin: 6rem;
   }
   
   .shark_text3 {
+    
+    display: grid;
+    text-align: left;
     background-color: rgba(92, 163, 139, 0.5);
     grid-column: 1/2;
     grid-row: 2;
+    box-shadow: #a0abb4 2px 2px 8px 1px;
+    padding: 1rem;
 }
+
+h3 {
+  justify-self: center;
+}
+
+.shark_text3 p {
+  grid-column: 1;
+  padding: 1.5rem 1rem;
+}
+
+#bottom_img {
+  justify-self: center;
+  align-self: center;
+}
+
+}
+
+
   
 .shark_text4 {
+  display: grid;
+  text-align: left;
     background-color: rgba(130, 163, 92, 0.5);
     grid-column: 2/3;
     grid-row: 2;
+    box-shadow: #a0abb4 2px 2px 8px 1px;
+    padding: 1rem;
 }
+
+
+.shark_text4 p {
+  grid-column: 1;
+  padding: 1.5rem 1rem;
+}
+
   
   .shark_text5 {
+    display: grid;
+    text-align: left;
     background-color: rgba(92, 111, 163, 0.5);
     grid-column: 1/2;
     grid-row: 3;
+    box-shadow: #a0abb4 2px 2px 8px 1px;
+    padding: 1rem;
+  }
+
+  .shark_text5 p {
+    grid-column: 1;
+    padding: 1.5rem 1rem;
   }
   
   .shark_text6 {
+    display: grid;
+    text-align: left;
     background-color: rgba(103, 234, 243, 0.5);
     grid-column: 2/3;
     grid-row: 3;
+    box-shadow: #a0abb4 2px 2px 8px 1px;
+    padding: 1rem;
   }
   
+  .shark_text6 p {
+    grid-column: 1;
+    padding: 1.5rem 1rem;
+  }
   
-#shark_img2{
-    max-width: 80%;
-}
 
 
 .shark_link_container {
@@ -157,8 +219,17 @@ justify-content: center;
     align-items: center;
 }
 
+.shark_link_container h2 {
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 
 #shark_link {
+  align-self: center;
+  justify-self: center;
     font-size: 2rem;
     color: rgb(82, 77, 77);
     }
@@ -169,16 +240,22 @@ justify-content: center;
       width: 30rem;
     }
 
+    #shark_concept2 {
+      width: 16rem;
+    }
+
 
      
 .efternote_container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin: 2rem 10rem 2rem 10rem;
-    background-color: #3d8f28;
+    background-color: rgba(154, 192, 154, 0.8);
+    
+    box-shadow: #a0abb4 2px 4px 4px 2px;
 
     
 }
@@ -196,9 +273,11 @@ justify-content: center;
     grid-column: 2/3;
     width: 10rem;
     margin-bottom: 4rem;
+    margin-top: 3rem;
     }
     
 #shark_img3 {
+  
     width: 20rem;
     margin: rem;
     
@@ -211,9 +290,9 @@ justify-content: center;
 }
 
 #bottom_img {
-  width: 14rem;
+  width: 8rem;
   height: auto;
-  margin: 1rem;
+  
 }
 
 

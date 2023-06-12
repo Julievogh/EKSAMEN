@@ -46,7 +46,8 @@ background-color: #8df378;
 .text_forside1 {
   text-align: center;
   margin-top: 2rem;
-  grid-column: 2; /* Add this line to center the element in the second grid column */
+  grid-column: 2; 
+  
 }
 
 .vita_gifs_container {
@@ -68,21 +69,17 @@ background-color: #8df378;
 }
 
 
-#orange {
-  width: 40%;
-  height: auto;
-  
-  bottom: 0%;
-  z-index: ;
-}
+
+
+
 
 
 #egg {
-  width: 20%;
+  width: 25%;
   height: auto;
   position: absolute;
-  top: 34%;
-  right: 2%;
+  top: 31.5%;
+  right: 13%;
   z-index: ;
 }
 
@@ -98,7 +95,7 @@ background-color: #8df378;
     width: 20%;
   height: auto;
   position: absolute;
-  top: 55%;
+  bottom: 18%;
   left: 2%;
   z-index: ;
     }
@@ -119,11 +116,13 @@ background-color: #8df378;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 5rem -10rem ;
+ 
 }
 
 
     .vit_main_container img {
       max-width: 80%;
+      
     }
 
     .vit_main_container p {
@@ -132,13 +131,40 @@ background-color: #8df378;
 
     .vit_text2 {
     background-color: rgba(112, 163, 92, 0.5);
+    box-shadow: #c5bdc7 2px 2px 2px 0px;
     }
 
     
     .vit_text3 {
       
       background-color: rgba(189, 243, 103, 0.5);
+      box-shadow: #c5bdc7 2px 2px 2px 0px;
     }
+
+
+    .orange_container {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      text-align: center; /* Add this line */
+    }
+
+    #orange {
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      height: auto;
+    }
+
+    #vit_img2  {
+      max-width: 100%;
+    }
+    
+    #vit_img3  {
+      max-width: 100%;
+    }
+
 
   }
 

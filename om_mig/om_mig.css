@@ -61,7 +61,7 @@
 
   }
 
-  
+
   
   #vitamin_link {
     font-size: 2rem;
@@ -69,20 +69,42 @@
     }
   
   
-    .postit1 {
+    .postit5 {
       width: 20%;
     height: auto;
     position: absolute;
-    top: 26%;
-    right: 22%;
+    bottom: 12%;
+    left: 2%;
     z-index: ;
       }
       
-      .postit1 img {
+      .postit5 img {
       
-      width: 18rem;
+      width: 22rem;
       height: auto;
       }
+
+
+
+
+
+  
+      .polo {
+        width: 22%;
+      height: auto;
+      position: absolute;
+      top: 20%;
+      right: 16%;
+      z-index: ;
+        }
+        
+        .polo img {
+        
+        width: 110%;
+        height: auto;
+        }
+
+
       
   
       #vit_site {
@@ -93,7 +115,7 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 5rem -10rem ;
+    margin: 2rem 0rem 6rem 0rem;
   }
   
   
@@ -106,7 +128,22 @@
       }
   
       .vit_text2 {
-      background-color: rgba(112, 163, 92, 0.5);
+      background-color: rgba(123, 168, 105, 0.5);
+      box-shadow: #7b948a 1px 1px 6px 0px;
+      padding: 2rem;
+      text-align: left;
+      margin: 1rem;
+      }
+
+      .vit_text2 h3{
+        text-align: center;
+        
+        }
+
+      .vit_text8 h3 {
+     
+align-items: center;
+text-align: center;
       }
   
 
@@ -115,25 +152,33 @@
         display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 2rem;
+    gap: 3rem;
     
       }
       
       .vit_text3 {
+        padding: 4%;
+        width: 16rem;
+        background-color: rgba(233, 232, 160, 0.5);
+        text-align: left;
+        box-shadow: #c6c7bd 1px 1px 4px 0px;
         
-        background-color: rgba(189, 243, 103, 0.5);
       }
 
       .vit_text3 img {
-        width: 12rem;
+        margin: 0 auto;
+        width: 100%;
+        
       }
 
 
 .fremtid_container {
 
-    background-color: rgba(243, 103, 236, 0.5);
+    background-color: rgba(243, 176, 234, 0.5);
+    box-shadow: #c7b2cc 1px 1px 4px 0px;
     border-radius: 20px;
-    margin: 4rem;
+    margin: 4rem 8rem;
+    padding: 1rem;
 }
 
 
@@ -184,17 +229,20 @@
   }
   
     
-.postit1 {
-    left: 2rem;
-}
-
-  .postit1 {
-      
-    width: 18rem;
+  .postit5 {
+    width: 20%;
+  height: auto;
+  position: absolute;
+  bottom: 18%;
+  left: 2%;
+  z-index: ;
+    }
+    
+    .postit5 img {
+    
+    width: 5%;
     height: auto;
     }
-  
-  
   
     footer {
       box-sizing: border-box;
