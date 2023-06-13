@@ -85,20 +85,20 @@ align-items: center;
       .shark_text2 h3 {
         grid-column: 1;
         grid-row: 1;
-        padding: 1.5rem 1rem;
+        padding: 1rem;
       }
 
       .shark_text2 h4 {
         text-align: center;
         grid-column: 2;
         grid-row: 1;
-        padding: 1.5rem 1rem;
+        padding: 1rem;
       }
 
       .shark_text2 p {
         grid-column: 1/2;
         grid-row: 2;
-        padding: 1.5rem 1rem;
+        padding: 1rem;
       }
 
       #shark_img2{
