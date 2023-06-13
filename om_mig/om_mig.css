@@ -48,7 +48,7 @@
   .text_forside1 {
     text-align: center;
     margin-top: 2rem;
-    grid-column: 2; /* Add this line to center the element in the second grid column */
+    grid-column: 2; 
   }
   
   .puggy_container {
@@ -192,7 +192,19 @@ text-align: center;
  
  @media (max-width: 768px)
     
-    {
+ {
+ h1 {
+  
+  background-color: #c278f3;
+    background-image: linear-gradient(5deg, #eb486b,  #28728f, #cd3ee9);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  }
+
+  
   .forside_note_container{
       display: flex;
   flex-direction: column;
@@ -204,9 +216,54 @@ text-align: center;
     align-self: center
   }
   
+  #vit_img6 {
+    width: 15rem;
+  }
+ 
+  
+  .vit_text2 {
+    background-color: rgba(160, 212, 233, 0.5);
+    padding: 1rem;
+  }
+
+  .vit_text2 ul {
+    font-weight: 600;
+  }
+
+  .vit_text2 ul {
+    list-style: none;
+  }
+
+  #arbejde {
+    background-color: rgba(233, 232, 160, 0.5);
+    box-shadow: #c7b2cc 1px 1px 4px 0px;
+    margin-bottom: 2rem;
+  }
+
+  #fritid {
+    background-color: rgba(233, 171, 160, 0.5);
+    box-shadow: #c7b2cc 1px 1px 4px 0px;
+    margin-bottom: 2rem;
+  }
+
+  #oplevelser {
+    background-color: rgba(165, 160, 233, 0.5);
+    box-shadow: #c7b2cc 1px 1px 4px 0px;
+    margin-bottom: 2rem;
+  }
   
   
+
   
+  .oplevelser {
+  background-color: #c278f3;
+  }
+  
+  .fremtid_container {
+    background-color: rgba(243, 176, 234, 0.5);
+    box-shadow: #c7b2cc 1px 1px 4px 0px;
+    margin: 1rem;
+  }
       .vit_main_container {
         max-width:;
         display: flex;
@@ -225,7 +282,7 @@ text-align: center;
     max-width: 40%;
   }
   
-  #vit_img2  {
+  #vit_img2, #vit_img22, #vit_img222  {
     max-width: 80%;
   }
   
@@ -233,19 +290,30 @@ text-align: center;
     max-width: 80%;
   }
   
-    
-  .postit5 {
-    width: 20%;
+  .polo {
+    width: 12rem;
   height: auto;
-  position: absolute;
-  bottom: 18%;
-  left: 2%;
-  z-index: ;
+  position: relative;
+    }
+    
+    .polo img {
+    
+    width: 100%;
+    height: auto;
+    }
+
+    .puggy_container {
+      width: 10rem;
+      height: auto;
+      position: absolute;
+      bottom: -0.4%;
+      left: 2%;
+      z-index: ;
     }
     
     .postit5 img {
     
-    width: 5%;
+    width: 25rem;
     height: auto;
     }
   
@@ -268,3 +336,6 @@ text-align: center;
   
   
     }
+
+
+

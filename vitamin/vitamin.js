@@ -1,13 +1,13 @@
-// Get the burger icon element
+
 var burgerIcon = document.getElementById("burger-icon");
 
-// Get the small navbar element
+
 var smallNavbar = document.querySelector(".small_navbar");
 
-// Add a click event listener to the burger icon
+
 burgerIcon.addEventListener("click", function () {
-  // Toggle the active class on the small navbar
-  smallNavbar.classList.toggle("active");
+
+smallNavbar.classList.toggle("active");
 });
 
 
@@ -18,12 +18,12 @@ burgerIcon.addEventListener("click", function () {
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next/previous controls
+
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
+
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
