@@ -410,6 +410,21 @@ transform: scaleY(1);
 color: #a9a6b2;
 }
 
+
+#nav_icon1 {
+  margin-top: -1.4rem;
+  width: 4.5rem;
+  height: auto;
+  
+}
+
+.nav_text1 {
+  text-align: center;
+  margin-top: -2.5rem;
+  font-size: 1rem;
+}
+
+
 /* NAV DER VIRKER! KOPIR TIL DE ANDRE NAVS!*/
 
 .nav-item-2 {
@@ -430,16 +445,16 @@ color: #a9a6b2;
     align-items: center;
   }
   
-  .nav_icon2 {
-    margin-top: -1.4rem;
-    width: 4.5rem;
+  #nav_icon2 {
+    margin-top: -1rem;
+    width: 3.6rem;
     height: auto;
     
   }
   
   .nav_text2 {
     text-align: center;
-    margin-top: -2.5rem;
+    margin-top: -0.5rem;
     font-size: 1rem;
   }
   
@@ -455,16 +470,16 @@ color: #a9a6b2;
 }
 
 
-.nav_icon3 {
-  margin-top: -1.3rem;
-  width: 4.0rem;
+#nav_icon3 {
+  margin-top: -1rem;
+  width: 4rem;
   height: auto;
   
 }
 
 .nav_text3 {
   text-align: center;
-  margin-top: -1rem;
+  margin-top: -0.6rem;
   font-size: 1rem;
 }
 
@@ -499,8 +514,8 @@ color: #a9a6b2;
 
 #nav-item-5 {
 
-background-color: rgb(97, 189, 97);
-width: 8rem;
+background-color: rgb(100, 189, 110);
+width: 7rem;
 height: 5rem;
 border-radius: 7px 4px 0px 0px;
 box-shadow: 4px 4px 5px 2px;
@@ -537,16 +552,15 @@ color: #a9a6b2;
 
 #nav_icon6 {
  
-  margin-top: -.5rem;
-  width: 3.0rem;
-  height: auto;
+  margin-top: -1rem;
+  width: 4.0rem;
   height: auto;
   
 }
 
 .nav_text6 {
   text-align: center;
-  margin-top: 0.4rem;
+  margin-top: -0.4rem;
   font-size: 1rem;
 }
 
@@ -567,6 +581,17 @@ height: 4rem;
 border-radius: 2px 4px 0px 0px;
 box-shadow: 4px 4px 5px 2px;
 color: #a9a6b2;
+}
+#nav_icon7 {
+  margin-top: -1rem;
+  width: 4rem;
+  height: auto;
+  
+}
+.nav_text7 {
+  text-align: center;
+  margin-top: -1rem;
+  font-size: 1rem;
 }
 
 #nav-item-8 {
